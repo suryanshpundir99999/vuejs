@@ -32,14 +32,17 @@
 <Non_props_data/>
 <Non_p_user/> -->
 <!-- <Computed/>
-computed -->
-
-<watchh/>
+  computed -->
+  <!-- <watchh/> -->
+  <slotss/>
+  <childd/>
 
 </template>
 
 <script>
-import watchh from './components/watchh.vue'
+import childd from './components/childd.vue';
+// import watchh from './components/watchh.vue'
+import slotss from './components/slotss.vue';
 // import Computed from './components/computed.vue';
 
 // import newhome from './components/newhome.vue';
@@ -73,7 +76,10 @@ import watchh from './components/watchh.vue'
 export default {
     name: 'App',
     components: {
-    watchh
+      // watchh,
+      slotss,
+      childd,
+      
 }
 }
 </script>
