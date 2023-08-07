@@ -1,0 +1,12 @@
+To install vue by npm with cli
+
+we use following command : npm install -g @vue/cli
+
+-  know you have to check is vue is install or not
+
+just type  : vue 
+
+it show all command if not show all command its means it is not install yet
+
+----------------------
+to start ur project u have to write the following command : vue create blog
